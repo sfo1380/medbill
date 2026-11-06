@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Medbill",
+    "slug": "medbill",
+    "scheme": "medbill",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.example.medbill"
+    },
+    "android": {
+      "package": "com.example.medbill"
+    },
+    "plugins": ["expo-router"]
+  }
+}

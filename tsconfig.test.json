@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "strict": true,
+    "outDir": ".test-build",
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "types": []
+  },
+  "include": ["src/types.ts", "src/analysis/**/*.ts", "src/letters/**/*.ts", "src/data/**/*.ts", "src/lib/**/*.ts", "src/state/reducer.ts"]
+}

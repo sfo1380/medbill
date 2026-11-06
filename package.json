@@ -1,0 +1,17 @@
+{
+  "name": "medbill",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "setup": "expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar @expo/vector-icons react react-native && expo install typescript @types/react -- --save-dev && expo install --fix",
+    "start": "expo start",
+    "ios": "expo start --ios",
+    "android": "expo start --android",
+    "typecheck": "tsc --noEmit",
+    "test": "tsc -p tsconfig.test.json && node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "expo": "^57.0.0"
+  }
+}
